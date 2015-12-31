@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.javaSourceCompatibility
+        targetCompatibility rootProject.ext.javaTargetCompatibility
+    }
+
+    defaultConfig {
+        applicationId "mvp.gjj.mvptestdemo"
+        versionCode 1
+        versionName "1.0"
+        minSdkVersion rootProject.ext.minSdk
+        targetSdkVersion rootProject.ext.targetSdk
+        multiDexEnabled true
+//        versionName project.VERSION_NAME
+//        versionCode Integer.parseInt(project.VERSION_CODE)
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //mvp需要用到的库
+    compile project(':mvp-viewstate-lib')
+
+    compile 'com.android.support:design:'+ rootProject.ext.appcompat7Version
+    compile 'com.android.support:recyclerview-v7:'+ rootProject.ext.recyclerviewVersion
+    compile 'com.android.support:appcompat-v7:' + rootProject.ext.appcompat7Version
+
+    compile 'com.jakewharton:butterknife:'+rootProject.ext.butterknifeVersion
+}

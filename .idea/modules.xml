@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gjj_mvp.iml" filepath="$PROJECT_DIR$/gjj_mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp-common/mvp-common.iml" filepath="$PROJECT_DIR$/mvp-common/mvp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp-viewstate-lib/mvp-viewstate-lib.iml" filepath="$PROJECT_DIR$/mvp-viewstate-lib/mvp-viewstate-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvpdemo2/mvpdemo2.iml" filepath="$PROJECT_DIR$/mvpdemo2/mvpdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvptestdemo/mvptestdemo.iml" filepath="$PROJECT_DIR$/mvptestdemo/mvptestdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/typedemo/typedemo.iml" filepath="$PROJECT_DIR$/typedemo/typedemo.iml" />
+    </modules>
+  </component>
+</project>
