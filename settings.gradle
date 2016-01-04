@@ -1,1 +1,1 @@
-include ':app', ':typedemo', ':mvp-common', ':mvp', ':mvp-viewstate-lib', ':mvptestdemo', ':mvpdemo2'
+include ':app', ':typedemo', ':mvp-common', ':mvp', ':mvp-viewstate-lib', ':mvptestdemo', ':mvpdemo2', ':mvpdemo3'

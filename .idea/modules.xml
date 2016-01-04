@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/mvp-common/mvp-common.iml" filepath="$PROJECT_DIR$/mvp-common/mvp-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp-viewstate-lib/mvp-viewstate-lib.iml" filepath="$PROJECT_DIR$/mvp-viewstate-lib/mvp-viewstate-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvpdemo2/mvpdemo2.iml" filepath="$PROJECT_DIR$/mvpdemo2/mvpdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvpdemo3/mvpdemo3.iml" filepath="$PROJECT_DIR$/mvpdemo3/mvpdemo3.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvptestdemo/mvptestdemo.iml" filepath="$PROJECT_DIR$/mvptestdemo/mvptestdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/typedemo/typedemo.iml" filepath="$PROJECT_DIR$/typedemo/typedemo.iml" />
     </modules>
